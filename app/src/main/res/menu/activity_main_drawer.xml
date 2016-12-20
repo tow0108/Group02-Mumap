@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mumap"
+            android:icon="@drawable/map"
+            android:title="@string/mumap"
+            ></item>
+        <item
+            android:id="@+id/nearBy"
+            android:icon="@drawable/nearby"
+            android:title="Near By." />
+    </group>
+
+    <item android:title="Navigation">
+        <menu>
+            <item
+            android:id="@+id/navigator"
+        android:icon="@drawable/ic_menu_send"
+        android:title="@string/navigator"
+                ></item>
+
+            <item
+                android:id="@+id/navigatorTram"
+                android:icon="@drawable/traffic_light"
+                android:title="@string/navigatorTram"
+                ></item>
+        </menu>
+    </item>
+    <item android:title="Tram Station">
+        <menu>
+            <item
+                android:id="@+id/tram1"
+                android:icon="@drawable/tram1"
+                android:title="Yellow Tram" />
+            <item
+                android:id="@+id/tram2"
+                android:icon="@drawable/tram2"
+                android:title="Blue     Tram" />
+            <item
+                android:id="@+id/tram3"
+                android:icon="@drawable/tram3"
+                android:title="Red      Tram" />
+            <item
+                android:id="@+id/tram4"
+                android:icon="@drawable/tram4"
+                android:title="Green  Tram" />
+
+        </menu>
+    </item>
+    <item android:title="Filter">
+        <menu>
+            <item
+                android:id="@+id/atm"
+                android:icon="@drawable/credit_card"
+                android:title="ATM" />
+            <item
+                android:id="@+id/cafe"
+                android:icon="@drawable/coffee"
+                android:title="Cafe" />
+            <item
+                android:id="@+id/building"
+                android:icon="@drawable/home"
+                android:title="Building" />
+
+        </menu>
+    </item>
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:title="Contact Us"
+                android:icon="@drawable/contact"
+                android:id = "@+id/contact"/>
+        </menu>
+    </item>
+</menu>
